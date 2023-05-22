@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/amor.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.temporizador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.caja {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #eaeaea;
+  border-radius: 5px;
+}
+
+.separador {
+  font-size: 36px;
+  padding: 10px;
+}
+.mensaje {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #eaeaea;
+  border-radius: 5px;
+  margin-top: -80px; /* Desplazar el elemento hacia arriba */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
